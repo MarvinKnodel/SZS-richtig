@@ -1,0 +1,4 @@
+# LaTex
+*.log
+*.aux
+*.gz
