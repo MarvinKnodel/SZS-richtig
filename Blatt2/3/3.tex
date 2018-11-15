@@ -1,4 +1,29 @@
 \section*{Aufgabe 3}
-\subsection*{a)}
-\subsection*{b)}
-\subsection*{c)}
+	\subsection*{a)}
+		y(x) = m*x + c\\
+		MTBF$_c$(t) = $\kappa$ * t$^\alpha$\\
+		$\Rightarrow$ y = log(MTBF$_c$(t))\\
+		$\Rightarrow$ m = $\alpha$\\
+		$\Rightarrow$ c = log($\kappa$)\\
+		$\Rightarrow$ x = log(t)\\
+		
+	\subsection*{b)}
+		t$_1$ = 20 \ \ \ MTBF$_c$(t$_1$) = 7 \\
+		t$_2$ = 100 \ \ \ MTBF$_c$(t$_2$) = 25 \\
+		
+		MTBF$_c$(t$_1$):\\
+		$\Rightarrow$ 7 = $\kappa$ * 20$^\alpha$\\
+		$\Rightarrow$ $\kappa$ = $\frac{7}{20^\alpha}$\\
+		
+		MTBF$_c$(t$_2$):\\
+		$\Rightarrow$ 25 = $\kappa$ * 100$^\alpha$\\
+		mit $\kappa$ = $\frac{7}{20^\alpha}$ $\Rightarrow$ 25 = $\frac{7}{20^\alpha}$ * 100$^\alpha$\\
+		$\Rightarrow$ 25 = $\frac{7 * 100^\alpha}{20^\alpha}$\\
+		$\Rightarrow$ 25 = $7 * (\frac{100}{20})^\alpha$\\
+		$\Rightarrow$ 25 = $7 * 5^\alpha$\\
+		$\Rightarrow$ $\alpha$ = log$_5(\frac{25}{7})$ = 0,79\\
+		mit $\alpha$ = 0,79 $\Rightarrow$ $\kappa$ = $\frac{7}{20^{0,79}}$ = 0,66\\
+		
+	\subsection*{c)}
+		MTBF$_c$(200) = 0,66 * 200$^{0,79}$ = 43\\
+		$\lambda_i$(100) = 7e$^{-\frac{7}{25} *100}$ = 5
