@@ -1,0 +1,1 @@
+plot(h(0:1), h(0:1), type = 'l', xlab = 'fpr', ylab = 'tpr',lwd=2)
